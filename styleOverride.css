@@ -19,12 +19,12 @@ switch/toggle button
 
 .switch-field {
 	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
-	padding: 40px;
+	padding: 0px;
 	overflow: hidden;
 }
 
 .switch-title {
-	margin-bottom: 6px;
+	margin-bottom: 0px;
 }
 
 .switch-field input {
@@ -65,7 +65,7 @@ switch/toggle button
 }
 
 .switch-field input:checked + label {
-	background-color: #04E6DC;
+	background-color: #40C0CB;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -106,7 +106,7 @@ h1.title {
 
 hr{
 	width: 10%;
-	color: #fff;
+	color: #40C0CB;
 }
 
 .form-group{
