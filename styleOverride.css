@@ -1,9 +1,9 @@
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-   background-color: #07EFF7;
+   background-color: #04E6DC;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #04E6DC;
+  background-color: #014E6B;
 }
 
 /* 
@@ -88,7 +88,7 @@ switch/toggle button
 body, html{
      height: 100%;
  	background-repeat: no-repeat;
- 	background-color: #d3d3d3;
+ 	background-color: #014E6B;
  	font-family: 'Oxygen', sans-serif;
 }
 
@@ -100,6 +100,7 @@ h1.title {
 	font-size: 50px;
 	font-family: 'Passion One', cursive; 
 	font-weight: 400; 
+	color: #fff;
 }
 
 hr{
