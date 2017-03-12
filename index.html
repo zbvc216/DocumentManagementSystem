@@ -121,20 +121,19 @@ function remove_btn(btn_remove) {
 		<div class="container col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
 			<div class="btn-group col-xs-4  col-md-4">
 				<a href="#" class="btn btn-xs btn-link">History &nbsp; </a>
-				<a href="#" class="btn btn-xs btn-link">Delete &nbsp;</a>
 				<a href="#" class="btn btn-xs btn-link">Edit &nbsp;</a>
 			</div>  
 		</div>
 
 		<div class="container col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
-			<table id="list" style="color: #014E6B" class="table table-striped table-bordered">
+			<table id="list" style="color: #014E6B" class="table table-striped table-hover">
 				<thead class="thead-inverse">
 					<tr>
 						<th>File Name</th>
 						<th>Owners</th>
 						<th>Tags</th>
 						<th>Date</th>
-						<th>Edit</th>
+						<th>Remove</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -144,8 +143,8 @@ function remove_btn(btn_remove) {
 						<td>work, pics</td>
 						<td>1/8/2015</td>
 						<td>
-							<button title="remove" type="button" class="btn btn-danger remove show_tip"
-							data-original-title="Remove from list" onclick="remove_btn(this);"> Remove 
+							<button title="Remove" type="button" class="btn btn-danger remove show_tip" 
+							style="margin-right: 10px;" data-original-title="Remove from list" onclick="remove_btn(this);"> <span class="glyphicon glyphicon-trash"></span>
 							</button>
 						</td>
 					</tr>
@@ -155,8 +154,8 @@ function remove_btn(btn_remove) {
 						<td>work</td>
 						<td>20/5/2012</td>
 						<td>
-							<button title="remove" type="button" class="btn btn-danger remove show_tip"
-							data-original-title="Remove from list" onclick="remove_btn(this);"> Remove 
+							<button title="Remove" type="button" class="btn btn-danger remove show_tip" 
+							style="margin-right: 10px;" data-original-title="Remove from list" onclick="remove_btn(this);"> <span class="glyphicon glyphicon-trash"></span>
 							</button>
 						</td>
 					</tr>
@@ -166,8 +165,8 @@ function remove_btn(btn_remove) {
 						<td>family, pics</td>
 						<td>19/1/1991</td>
 						<td>
-							<button title="remove" type="button" class="btn btn-danger remove show_tip"
-							data-original-title="Remove from list" onclick="remove_btn(this);"> Remove 
+							<button title="Remove" type="button" class="btn btn-danger remove show_tip" 
+							style="margin-right: 10px;" data-original-title="Remove from list" onclick="remove_btn(this);"> <span class="glyphicon glyphicon-trash"></span>
 							</button>
 						</td>
 					</tr>
