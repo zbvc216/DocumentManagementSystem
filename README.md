@@ -2,7 +2,7 @@
 DMS prototype for HCI
 
 When the folder is opened right click the login.html and select open with, select your prefered browser.
-
+--------------------------------
 --------------------------------
 Create and account:
 
