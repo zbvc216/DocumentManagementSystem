@@ -22,8 +22,16 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Username</a></li>
-					<li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+					<li><a id="button" class="btn-link dropdown-toggle"
+ 							data-toggle="dropdown">
+ 							Username <span class="glyphicon glyphicon-user"></span>
+ 							<ul class="dropdown-menu" role="menu">
+ 								<li><a href="#">Settings</a></li>
+ 								<li><a href="#">Help</a></li>
+ 								<li><a href="login.html"><span
+ 								class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+ 							</ul>
+ 						</a></li>
 				</ul>
 			</div>
 		</div>
