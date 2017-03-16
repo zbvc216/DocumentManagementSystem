@@ -37,7 +37,6 @@
 		</div>
 	</nav>
 
-
 	<div class="pagewrap">
 		<div class="container col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
 			<div class="btn-group col-xs-4  col-md-4">
@@ -93,12 +92,16 @@
       <span class="close">&times;</span>
     </div>
     <div class="modal-body">
-      <p><center>DRAG AND DROP NEW FILE HERE</center></p>
-      <p><center>OR</center></p>
-      <p><center>CLICK TO BROWSE</center></p>
+    <form class="box">
+  <div class="box__input">
+    <input class="file" type="file" name="files[]" id="file"/>
+    <center><label for="file">DRAG AND DROP NEW FILE HERE OR CLICK HERE TO BROWSE</label></center>
+
+  </div>
+</form>
     </div>
     <div class="modal-footer">
-      <button>SAVE</button>
+      <button class="box__button" type="submit">SAVE</button>
       <button>EXIT</button>
     </div>
   </div>

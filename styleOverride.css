@@ -140,6 +140,14 @@
     to {top: 0; opacity: 1}
 }
 
+
+.box__dragndrop {}
+.box__uploading {}
+.box__success {}
+.box__error {
+  display: none;
+}
+
 /*
 /* Created by Filipe Pina
  * Specific styles of signin, register, component
